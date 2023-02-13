@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&family=Poppins:wght@400;700&display=swap');
+
+.signed-in {
+  padding: 2vw;
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signed-in > h1, h2 {
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1000;
+}
+
+.signed-in > h1 {
+  font-weight: 700;
+  font-size: 8vw;
+}
+
+.signed-in > h2 {
+  font-weight: 400;
+  font-size: 3vw;
+  top: 10vw;
+}
+
+.joke-display, .window-title-bar {
+  box-shadow: 0.3vw 0.3vw 1vw #7b7b7b, 0vw 0vw 1vw #7b7b7b;
+}
+
+.joke-display {
+  padding: 1.5vw 2.5vw;
+  font-family: 'JetBrains Mono', monospace;
+  color: #eeeeee;
+  background: #2c2c2c;
+  border-radius: 0vw 0vw 2vw 2vw;
+  height: 50vw;
+}
+
+.window-title-bar {
+  background: #595959;
+  color: #ffffff;
+  font-size: 170%;
+  border-radius: 2vw 2vw 0vw 0vw;
+  text-align: center;
+  padding: 0.5vw;
+  margin-top: 15vw;
+}
+
+.window-buttons {
+  position: absolute;
+  transform: translate(10%, 0%);
+  font-size: 90%;
+}
+
+.joke-display h1 {
+  margin: 0px;
+  line-height: 5vw;
+}
+
+.joke-display a {
+  text-decoration: none;
+}
+
+.blue {
+  color: #92c1ff;
+}
+
+.red {
+  color: #ff3d3d;
+}
+
+.yellow {
+  color: #ffd037;
+}
+
+.green {
+  color: #13e11a;
+}
+
+.bg-red {
+  background: #ff0000;
+  color: #1e1e1e;
+}
+
+.bg-green {
+  background: #00ff00;
+  color: #1e1e1e;
+}
